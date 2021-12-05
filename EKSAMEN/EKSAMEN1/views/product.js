@@ -1,6 +1,6 @@
 const signedInUser = localStorage.getItem('user');
 if (!signedInUser) {
-  location.href = '/login.html';
+  location.href = '/register.html';
 }
 
 
