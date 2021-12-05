@@ -1,0 +1,62 @@
+[
+    {
+        "id": "idkwgqczt5",
+        "product": "Bord"
+    },
+    {
+        "id": "idkwgqd7y9",
+        "product": "Stol"
+    },
+    {
+        "id": "idkwgqgmkq",
+        "product": "Flaske"
+    },
+    {
+        "id": "idkwmelht9",
+        "product": "Keyboard"
+    },
+    {
+        "id": "idkwmgtlkq",
+        "product": "Keyboard"
+    },
+    {
+        "id": "idkwna7k5l",
+        "product": "Bord"
+    },
+    {
+        "id": "idkwo17cwx",
+        "product": "Keyboard",
+        "price": "Keyboard",
+        "category": "Keyboard"
+    },
+    {
+        "id": "idkwo1a6pn",
+        "product": "Keyboard",
+        "price": "Keyboard",
+        "category": "Keyboard"
+    },
+    {
+        "id": "idkwo1blcz",
+        "product": "Flaske",
+        "price": "10",
+        "category": "Drink"
+    },
+    {
+        "id": "idkwpb8u5v",
+        "product": "phone",
+        "price": "100",
+        "category": "electronics"
+    },
+    {
+        "id": "idkwphni2d",
+        "product": "Keyboard",
+        "price": "13",
+        "category": "Music"
+    },
+    {
+        "id": "idkwpl9vj8",
+        "product": "stol",
+        "price": "23",
+        "category": "Music"
+    }
+]

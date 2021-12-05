@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Køb og Salg på CBS</title>
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+      
+      <form id = "submitproductform"> <!--vi laver et input felt nu vha en form tag-->
+        Title: <input type="text" id="productName" name="productName" placeholder= "Product Name">
+        Price: <input type="number" id="productPrice" name="productPrice" placeholder= "Product Price">
+        Category: <input type="text" id="productCategory" name="productCategory" placeholder= "Product Category">
+        <br/><br>
+        File: <input type="file" id= "thumbnail" name="thumbnail"><br/><br>
+        Submit: <button id="submit" >Submit</button>
+      </form> <br>
+        Refresh: <button id="refresh" >Refresh</button>
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <button id="getAllProducts">All Products</button>
+        <table id= "list">
+
+
+        </table>
+      </div>
+      <br>
+      <div id="allProducts"></div>
+
+      <form> <!--vi laver et input felt nu vha en form tag-->
+        <input type="text" id="updateProductId" placeholder= "ID of product to update">
+        <input type="text" id="updateProduct" placeholder= "Change the product">
+        <input type="number" id="updateProductPrice" placeholder= "Change Price">
+        <input type="text" id="updateProductCategory" placeholder= "Change Category">
+        <button id="changeProductSubmit" >Update Product</button>
+      </form>
+      <br>
+
+      <form> <!--vi laver et input felt nu vha en form tag-->
+                <input type="text" id="deleteProductId" placeholder= "ID of the product to delete">
+        <button id="deleteProductSubmit" >Delete Product</button>
+      </form>
+      <br>
+
+
+      Update User Credentials below:
+      <form> <!--vi laver et input felt nu vha en form tag-->
+        <input type="text" id="updateEmail" placeholder= "Change your Email Address">
+        <input type="text" id="updatePassword" placeholder= "Change your password">
+        <button id="changeUser" >Update User</button>
+      </form>
+      <br>
+      
+      Delete your account:
+        <form> <!--vi laver et input felt nu vha en form tag-->
+                  <input type="text" id="deleteUserEmail" placeholder= "Email of User that wishes to be deleted">
+          <button id="deleteUser" >Delete User</button>
+        </form>
+
+	<script src="index.js"></script>
+  </body>
+</html>
