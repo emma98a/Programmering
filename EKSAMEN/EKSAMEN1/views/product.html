@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+        <title>Køb og Salg på CBS</title>
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+      
+      <form id = "submitproductform"> <!--vi laver et input felt nu vha en form tag-->
+        Title: <input type="text" name="productName" id="productName" placeholder= "Product Name">
+        Price: <input type="number" name="productPrice" id="productPrice" placeholder= "Product Price">
+        Category: <input type="text" name="productCategory" id="productCategory" placeholder= "Product Category">
+        <br/><br>
+        File: <input type="file" name="thumbnail"><br/><br>
+        Submit: <button id="submit" >Submit</button>
+      </form> 
+      <br>
+      <br>
+      <br>
+      <div class="container">
+        <button id="getAllProducts">All Products</button>
+        <table id="seeproducts"></table>
+      </div>
+      <br>
+      <div id="allProducts"></div>
+
+      <form> <!--vi laver et input felt nu vha en form tag-->
+        <input type="text" id="updateProductId" placeholder= "ID of product to update">
+        <input type="text" id="updateProduct" placeholder= "Change the product">
+        <input type="number" id="updateProductPrice" placeholder= "Change Price">
+        <input type="text" id="updateProductCategory" placeholder= "Change Category">
+        <button id="changeProductSubmit" >Update Product</button>
+      </form>
+      <br>
+
+      <form> <!--vi laver et input felt nu vha en form tag-->
+                <input type="text" id="deleteProductId" placeholder= "ID of the product to delete">
+        <button id="deleteProductSubmit" >Delete Product</button>
+      </form>
+      <br>
+
+
+      
+
+      Update User Credentials below:
+      <form> <!--vi laver et input felt nu vha en form tag-->
+        
+        <input type="text" id="updateEmail" placeholder= "Change your Email Address">
+        <input type="text" id="updatePassword" placeholder= "Change your password">
+        <button id="changeUser" >Update User</button>
+      </form>
+      <br>
+      
+      Delete your account:
+        <form> <!--vi laver et input felt nu vha en form tag-->
+          
+          <button id="deleteUser" >Delete User</button>
+        </form>
+        <br>
+        
+        <form> <!--vi laver et input felt nu vha en form tag-->
+          
+          <button id="Logout" >Log Out</button>
+        </form>
+        <br>
+
+
+	<script src="product.js"></script>
+  </body>
+</html>
