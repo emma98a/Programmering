@@ -1,16 +1,1 @@
-[
-  {
-    "id": "idkwxgviar",
-    "product": "Keyboard",
-    "price": "123",
-    "category": "Music",
-    "image": "uploads\\QS5T25_QuF6xz6OrUGCiwywp.jfif"
-  },
-  {
-    "id": "idkwxgz097",
-    "product": "Table",
-    "price": "12",
-    "category": "Furniture",
-    "image": "uploads\\hLEXV88gfSr_qycYmCYVG-47.jfif"
-  }
-]
+[{"id":"idkwxgviar","product":"Keyboard","price":"123","category":"Music","image":"uploads\\QS5T25_QuF6xz6OrUGCiwywp.jfif"},{"id":"idkwxgz097","product":"Table","price":"12","category":"Furniture","image":"uploads\\hLEXV88gfSr_qycYmCYVG-47.jfif"},{"id":"idkwytzuqx","product":"Table","price":"123","category":"furniture","image":"uploads\\P8OkOG-Zh7v3qzVUVE4hy8KS.jfif"}]

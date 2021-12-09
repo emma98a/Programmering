@@ -1,7 +1,7 @@
 //Stay logged in
 const signedInUser = localStorage.getItem("user");
 if (!signedInUser) {
-  location.href = "/register.html";
+  location.href = "/login.html";
 }
 
 //Logout
@@ -168,7 +168,7 @@ deleteProductSubmit.addEventListener("click", (e) => {
 });
 
 //User update and delete
-
+/*
 let getUsers = document.getElementById("getAllUsers");
 let allUsersdiv = document.getElementById("allUsers");
 
@@ -204,7 +204,7 @@ getAllUsers.addEventListener("click", (e) => {
     .catch((error) => {
       console.log("Error:", error);
     });
-});
+}); */
 
 let changeUser = document.getElementById("changeUser");
 
