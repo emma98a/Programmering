@@ -3,8 +3,26 @@ const app = express.Router();
 const database = require('../database');
 const productModel = require('../models/productModel');
 const fs = require('fs');
+const formData=require('express-form-data');
 
 
+app.post('/create', formData.parse({uploadDir:'./views/uploads'}), (req, res) => {
+  const {productName, productPrice, productCategory} = req.body;
+  const image = req.files.thumbnail.path.replace('\\', '/');
+  const ProductID = 'id' + Date.now().toString(36);
+  const product = new productModel(ProductID, productName, productPrice, productCategory, image.replace('views/', ''));
+  const found = database.findProduct(product);
+
+  if (!found) {
+    database.createProduct(product);
+    res.status(200).send(true);
+  } else {
+    res.status(404).send(false);
+  }
+});
+
+
+/*
 app.post('/create', (req, res) => {
   const product = new productModel(req.body.id, req.body.product, req.body.price, req.body.category);
   const found = database.findProduct(product);
@@ -16,7 +34,7 @@ app.post('/create', (req, res) => {
     res.status(404).send(false);
   }
 });
-
+*/
 
 app.get('/create', (req, res)=> {
     fs.readFile('database/product.json', function(err, data) {

@@ -29,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then((info) => {
           console.log(info);
           location.href = '/login.html';
+          alert("Success! User added")
         })
         .catch((err) => {
           console.log('Error:', err);

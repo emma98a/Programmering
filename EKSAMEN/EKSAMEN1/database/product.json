@@ -1,1 +1,16 @@
-[{"id":"idkwtqjsn5","product":"Keyboard","price":"234","category":"Music"},{"id":"idkwtqk19t","product":"Bord","price":"234","category":"furniture"}]
+[
+  {
+    "id": "idkwxgviar",
+    "product": "Keyboard",
+    "price": "123",
+    "category": "Music",
+    "image": "uploads\\QS5T25_QuF6xz6OrUGCiwywp.jfif"
+  },
+  {
+    "id": "idkwxgz097",
+    "product": "Table",
+    "price": "12",
+    "category": "Furniture",
+    "image": "uploads\\hLEXV88gfSr_qycYmCYVG-47.jfif"
+  }
+]

@@ -20,6 +20,7 @@
       <br>
       <div class="container">
         <button id="getAllProducts">All Products</button>
+        <table id="seeproducts"></table>
       </div>
       <br>
       <div id="allProducts"></div>
@@ -48,7 +49,7 @@
 
       Update User Credentials below:
       <form> <!--vi laver et input felt nu vha en form tag-->
-        <input type="text" id="updateUserId" placeholder= "ID of user to update">
+        
         <input type="text" id="updateEmail" placeholder= "Change your Email Address">
         <input type="text" id="updatePassword" placeholder= "Change your password">
         <button id="changeUser" >Update User</button>
@@ -57,9 +58,17 @@
       
       Delete your account:
         <form> <!--vi laver et input felt nu vha en form tag-->
-          <input type="text" id="deleteUserId" placeholder= "ID of the user to delete">
+          
           <button id="deleteUser" >Delete User</button>
         </form>
+        <br>
+        
+        <form> <!--vi laver et input felt nu vha en form tag-->
+          
+          <button id="Logout" >Log Out</button>
+        </form>
+        <br>
+
 
 	<script src="product.js"></script>
   </body>

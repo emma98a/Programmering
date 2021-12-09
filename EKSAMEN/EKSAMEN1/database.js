@@ -22,7 +22,7 @@ class Database {
 
   /* USER DB */
   findUser(user) {
-    return this.users.find((obj) => obj.email == user.email); //måske skrive id i stedet
+    return this.users.find((obj) => obj.email == user.email); 
   }
 
   createUser(user) {

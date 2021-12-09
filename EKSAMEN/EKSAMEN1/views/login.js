@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then((response) => response.json())
         .then((info) => {
           if (info) {
-            localStorage.setItem('user', JSON.stringify(user));
+            localStorage.setItem('user', JSON.stringify(info));
             location.href = '/product.html';
           } else {
             window.alert(info);
